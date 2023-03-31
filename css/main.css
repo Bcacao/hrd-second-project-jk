@@ -31,13 +31,13 @@
 .slide {
     float: left;
     /* border: 1px solid #000; */
-    margin-left: 35px;
+    margin-left: 33px;
 
 
 }
 
 .slide>img {
-    width: 337px;
+    width: 336px;
     height: 473px;
     border: 1px solid #a55b5b;
 }
@@ -81,6 +81,15 @@
     display: flex;
     
 }
+.movie-text{
+    width: 50%;
+    
+}
+.movie-text p{
+    background: red;
+margin: 14px;
+margin-top: 25px;
+}
 .movie-container p{
     font-family: 'Orbitron', sans-serif;
     color: white;
@@ -89,6 +98,9 @@
     font-weight: 700;
     border: 1px solid #a55b5b;
     float: left;
+    display: block;
+    
+    
 }
 .movie-container span{
 font-size: 0.5em;
@@ -96,7 +108,7 @@ font-size: 0.5em;
 .movie-explain{
     border: 1px solid #a55b5b;
     height: 100%;
-    width: 527px;
+    width: 50%;
     font-size: 0.5em;
     display: flex;
     flex-direction: column;
@@ -114,12 +126,5 @@ font-size: 0.5em;
 .movie-explain .movie-tiketing{
 line-height: 59px;
 
-}
-
-footer{
-   position: absolute;
-   top: 103.4%; 
-   left: -59%;
-   width: 2500px; 
 }
 

@@ -3,7 +3,7 @@ const $slides = document.querySelector('.slide-wrapper');
 const $slide = document.querySelectorAll('.slide');
 var currentIdx = 0;
 const slideCount = $slide.length;
-const slideWidth = 337;
+const slideWidth = 336;
 const slideMargin = 33; 
 const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
@@ -12,7 +12,7 @@ const $slidesWidth = (slideWidth + slideMargin) * slideCount + slideMargin;
 $slides.style.width = String($slidesWidth) +'px';
 
 function moveSLide (num){
-    $slides.style.left = String(-num * 373) +'px';
+    $slides.style.left = String(-num * 369) +'px';
     currentIdx = num;
 }
 
