@@ -3,6 +3,7 @@
     /* background: aqua; */
     border: 1px solid #000;
     position: relative;
+    background-color: rgb(34, 28, 28);
    
 }
 
@@ -18,12 +19,13 @@
 
 .slide-wrapper {
     /* border: 1px solid #000; */
-    height: 478px;
+    height: 473px;
     /* width: 2253px;  */
     position: absolute;
     left: 0;
     top: 0;
     transition: left 0.5s ease-out;
+    background: rgb(180, 48, 48);
 
 
 }
@@ -39,7 +41,7 @@
 .slide>img {
     width: 336px;
     height: 473px;
-    border: 1px solid #a55b5b;
+    
 }
 
 .slide-controller {
@@ -47,6 +49,7 @@
     display: flex;
     justify-content: space-between;
     height: 478px;
+   
 
 
 
@@ -59,12 +62,13 @@
     opacity: 0.3;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #a55b5b;
+    background-color: rgb(133, 20, 20);
+    
 }
 
 .next {
     background-image: url('../image/nextKakaoTalk_20230328_161359586_03.png');
-
+   
 
 }
 
@@ -73,32 +77,34 @@
 
 }
 .movie-container{
-    background: black;
+     background-color: rgb(133, 20, 20);
     position: absolute;
     bottom: 0;
-    height: 29.5%;
+    height: 27%;
     width: 100%;
     display: flex;
     
 }
 .movie-text{
     width: 50%;
+    font-size: 0.8em;
     
 }
 .movie-text p{
-    background: red;
+    
 margin: 14px;
 margin-top: 25px;
 }
 .movie-container p{
     font-family: 'Orbitron', sans-serif;
-    color: white;
+    color:  #a1a1a1;
     font-size: 3em;
     padding: 3%;
     font-weight: 700;
-    border: 1px solid #a55b5b;
+   
     float: left;
     display: block;
+    
     
     
 }
@@ -106,23 +112,55 @@ margin-top: 25px;
 font-size: 0.5em;
 }
 .movie-explain{
-    border: 1px solid #a55b5b;
+   
     height: 100%;
     width: 50%;
     font-size: 0.5em;
     display: flex;
-    flex-direction: column;
+   
+    
     
 
 }
 .movie-explain p{
-   height: 50%;
-    width: 250px;
     text-align: center;
-    margin: 0 auto;    
+    margin: 0 auto; 
     
-    
+   
 }
+.title-box1{
+    border: 3px solid #ffffff;  
+border-radius: 50%;
+height: 140px;
+width: 140px;
+margin-top: 20px; 
+margin-left: 190px;
+background-color: rgb(34, 28, 28);
+
+}
+.tiketing-box1{
+  border: 3px solid #ffffff;   
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+    margin-top: 20px; 
+    margin-left: 50px;
+    background-color: rgb(34, 28, 28);
+}
+.title-box1 p{
+margin-top: 45px;
+font-size: 20px;
+margin-left: 11px;
+color: rgb(255, 255, 255);
+
+}
+.tiketing-box1 p{
+    font-size: 25px;
+    margin-top: 35px;
+    margin-left: 13px;
+    color: rgb(255, 255, 255);
+}
+
 .movie-explain .movie-tiketing{
 line-height: 59px;
 
