@@ -17,8 +17,6 @@ const $secretBoxLi = [...$secretBox];
 // $qrcode.src = '../image/소울메이트.png';
 
 
-// $secretBoxLi[3].style.opacity= '0.1';
-// $secretBoxLi[3].style.transition = 'opacity 2s ease-out';
 
  for(let i = 0; i < $secretBoxLi.length; i++){
      $secretBoxLi[i].style.opacity= '0';

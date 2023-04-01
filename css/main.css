@@ -131,8 +131,8 @@ font-size: 0.5em;
 .title-box1{
     border: 3px solid #ffffff;  
 border-radius: 50%;
-height: 140px;
-width: 140px;
+height: 155px;
+width: 155px;
 margin-top: 20px; 
 margin-left: 190px;
 background-color: rgb(34, 28, 28);
@@ -141,23 +141,28 @@ background-color: rgb(34, 28, 28);
 .tiketing-box1{
   border: 3px solid #ffffff;   
     border-radius: 50%;
-    height: 140px;
-    width: 140px;
+    height: 155px;
+    width: 155px;
     margin-top: 20px; 
     margin-left: 50px;
     background-color: rgb(34, 28, 28);
 }
 .title-box1 p{
-margin-top: 45px;
+margin-top: 52px;
 font-size: 20px;
-margin-left: 11px;
+margin-left: -5px;
 color: rgb(255, 255, 255);
+
+height: 60px;
+width: 160px;
+display: block;
+
 
 }
 .tiketing-box1 p{
     font-size: 25px;
-    margin-top: 35px;
-    margin-left: 13px;
+    margin-top: 39px;
+    margin-left: 20px;
     color: rgb(255, 255, 255);
 }
 

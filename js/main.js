@@ -43,34 +43,40 @@ function clickMovie(){
     $slide[0].addEventListener('click',function(){
         $title.innerHTML = '스즈메의 문단속<br><span>신카이마코도 신작</span>';
         $movieTiketing.innerHTML = '바로예매';
+        
+        
     });
      
     $slide[1].addEventListener('click',function(){
         $title.innerHTML = '던전앤드래곤<br><span>도적들의명예</span>';
         $movieTiketing.innerHTML = '바로예매';
+      
     });
 
      
     $slide[2].addEventListener('click',function(){
         $title.innerHTML = '슬램덩크<br><span>The First Slam Dunk</span>';
         $movieTiketing.innerHTML = '바로예매';
+      
     });
 
      
     $slide[3].addEventListener('click',function(){
         $title.innerHTML = '리바운드<br><span>감동실화</span>';
         $movieTiketing.innerHTML = '바로예매';
+        
     });
 
      
     $slide[4].addEventListener('click',function(){
         $title.innerHTML = '소울메이트<br><span>넌 항상 내 옆에 있었어</span>';
         $movieTiketing.innerHTML = '바로예매';
+      
     });
 
      
     $slide[5].addEventListener('click',function(){
-        $title.innerHTML = '웅남이<br><span>간이 쏙 빠지게 웃긴 사나이가 온다</span>';
+        $title.innerHTML = '웅남이<br><span>간이 쏙 빠지게 웃긴 사나이</span>';
         $movieTiketing.innerHTML = '바로예매';
     });
 
